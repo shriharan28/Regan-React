@@ -1,0 +1,25 @@
+{
+  "name": "regan-react",
+  "version": "1.0.0",
+  "description": "This is Regan-React by Shriharan Stalin",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/shriharan28/Regan-React.git)"
+  },
+  "keywords": [],
+  "author": "Shriharan Stalin",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
