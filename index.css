@@ -32,10 +32,16 @@
     cursor: pointer;
     border: 1px solid black;
 }
-.search{
+.filter-btn{
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
+.filter-btn:hover{
+    background-color: rgb(173, 203, 255);
+
+}
+    
 .res-logo{
     width: 100%;
     height: 200px;
