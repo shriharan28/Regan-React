@@ -26,22 +26,22 @@
     margin: 5px;
     padding: 5px;
     width: 210px; 
-    background-color: rgb(201, 200, 199);
+    background-color: #f0f0f0;
 }
 .res-card:hover{
     cursor: pointer;
     border: 1px solid black;
 }
 .filter-btn{
-    padding: 10px;
-    margin: 10px;
+    margin-left: 10px;
     cursor: pointer;
 }
-.filter-btn:hover{
-    background-color: rgb(173, 203, 255);
-
-}
-    
+.filter{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center
+    ;
+}  
 .res-logo{
     width: 100%;
     height: 200px;
@@ -50,6 +50,29 @@
     
 }
 .res-container{
+    margin-left: 65px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.shimmer-card {
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    width: 210px; 
+    height: 500px;
+    background-color: #f0f0f0;
+
+}
+.shimmer-container {
+    margin-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.login {   
+    padding: 0 20px;
+    height: 60px;
+    cursor: pointer;
+
 }
